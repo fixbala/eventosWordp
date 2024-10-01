@@ -1,0 +1,29 @@
+/* Estilos del bloque de eventos */
+.ge-block {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+ 
+/* 
+.wp-block-gestion-eventos-eventos-block .event-slider {
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+.wp-block-gestion-eventos-eventos-block .event-slider h1 {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+}
+
+.wp-block-gestion-eventos-eventos-block .slides-container {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.wp-block-gestion-eventos-eventos-block .slide {
+    flex: 0 0 300px;
+    margin: 10px;
+}
+  */

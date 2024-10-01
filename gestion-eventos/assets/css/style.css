@@ -1,0 +1,200 @@
+/* Estilos globales del plugin */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo-container img {
+    max-width: 50px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.notification-bar {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-notification {
+    background: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.event-slider {
+    text-align: center;
+    background-color: #e5e5e5;
+    position: relative;
+}
+
+.event-slider h1 {
+    color: #fff;
+    background-color: #f00;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.prev-slide, .next-slide {
+    background: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.event-details {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.event-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-event {
+    background-color: #f00;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.event-description {
+    color: #000;
+    margin: 20px 0;
+}
+
+.event-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-stats div {
+    background-color: #e5e5e5;
+    padding: 10px;
+    width: 48%;
+    text-align: center;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-item.active {
+    background-color: #f00;
+}
+
+.icon {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la galería de imágenes */
+.event-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.event-gallery img {
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.event-gallery img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .top-bar, .notification-bar, .event-details, .bottom-nav {
+        padding: 10px 5%;
+    }
+    .slider-controls {
+        padding: 0 5%;
+    }
+    .event-gallery {
+        justify-content: center;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos adicionales para el bloque de eventos */
+.event-block {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-block p {
+    margin-bottom: 20px;
+}
+
+.event-block img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.event-block .event-gallery {
+    margin-top: 20px;
+}
+
+.event-block .event-gallery .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+ 

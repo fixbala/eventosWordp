@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: Gestion de Eventos 1.0\n"
+"PO-Revision-Date: 2024-09-26 12:00+0000\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+ 
+msgid "Eventos"
+msgstr ""
+
+msgid "Evento" 
+msgstr ""
+
+msgid "Fecha y Hora del Evento"
+msgstr ""
+
+msgid "Fecha:"
+msgstr ""
+
+msgid "Hora:"
+msgstr ""
+
+msgid "EVENTOS"
+msgstr ""
